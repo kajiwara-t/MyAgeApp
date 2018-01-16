@@ -7,8 +7,10 @@
     tools:context="com.example.sunrise_system.myageapp.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
+
     <Button
         android:id="@+id/button2"
+        android:background="@drawable/button_state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="西暦"
@@ -22,6 +24,7 @@
 
     <Button
         android:id="@+id/button3"
+        android:background="@drawable/button_state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="和暦"

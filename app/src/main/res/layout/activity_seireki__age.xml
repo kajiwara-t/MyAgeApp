@@ -19,10 +19,10 @@
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="46dp"
-        android:layout_marginTop="420dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/button_state"
         android:text="最初に戻る"
-        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,10 +30,9 @@
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="508dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="488dp"
         android:text="終了する"
-        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
