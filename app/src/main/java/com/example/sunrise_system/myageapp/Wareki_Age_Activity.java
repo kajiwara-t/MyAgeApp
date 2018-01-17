@@ -119,7 +119,7 @@ public class Wareki_Age_Activity extends Activity implements View.OnClickListene
 
         TextView textage = (TextView) findViewById(R.id.textView36);
         textage.setText(String.valueOf(age));
-        textage.setTextColor(Color.GREEN);
+        textage.setTextColor(Color.BLUE);
     }
 
 
