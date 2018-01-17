@@ -107,12 +107,19 @@ public class Wareki_Age_Activity extends Activity implements View.OnClickListene
 
         TextView textyear = (TextView) findViewById(R.id.textView28);
         textyear.setText(String.valueOf(data[4]));
+        textyear.setTextColor(Color.BLUE);
+
         TextView textmonth = (TextView) findViewById(R.id.textView30);
         textmonth.setText(String.valueOf(data[1]));
+        textmonth.setTextColor(Color.BLUE);
+
         TextView textday = (TextView) findViewById(R.id.textView32);
         textday.setText(String.valueOf(data[2]));
+        textday.setTextColor(Color.BLUE);
+
         TextView textage = (TextView) findViewById(R.id.textView36);
         textage.setText(String.valueOf(age));
+        textage.setTextColor(Color.GREEN);
     }
 
 

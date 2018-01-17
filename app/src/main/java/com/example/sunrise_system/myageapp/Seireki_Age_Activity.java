@@ -77,12 +77,19 @@ public class Seireki_Age_Activity extends Activity implements View.OnClickListen
         //計算結果表示
         TextView textyear = (TextView) findViewById(R.id.textView18);
         textyear.setText(String.valueOf(data[0]));
+        textyear.setTextColor(Color.BLUE);
+
         TextView textmonth = (TextView) findViewById(R.id.textView19);
         textmonth.setText(String.valueOf(data[1]));
+        textmonth.setTextColor(Color.BLUE);
+
         TextView textday = (TextView) findViewById(R.id.textView21);
         textday.setText(String.valueOf(data[2]));
+        textday.setTextColor(Color.BLUE);
+
         TextView textage = (TextView) findViewById(R.id.textView15);
         textage.setText(String.valueOf(age));
+        textage.setTextColor(Color.GREEN);
     }
 
 

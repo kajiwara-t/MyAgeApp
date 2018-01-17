@@ -2,6 +2,7 @@ package com.example.sunrise_system.myageapp;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,6 +30,9 @@ public class Error_Activity extends Activity implements View.OnClickListener {
         //data[9] 未来エラー
         //data[10] 入力月エラー
         //data[11] 入力日エラー
+
+        TextView txt = (TextView)findViewById(R.id.ErrorText);
+        txt.setTextColor(Color.RED);
 
         int gengou = intent.getIntExtra("Wareki_error", 0);
         int seireki = intent.getIntExtra("Year_error", 0);
