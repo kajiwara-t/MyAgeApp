@@ -28,8 +28,10 @@
         <activity
             android:name=".Wareki_Age_Activity"
             android:label="My Age App" />
-        <activity android:name=".ErrorActivity"
+        <activity
+            android:name=".ErrorActivity"
             android:label="My Age App" />
+        <activity android:name=".Error_Activity"></activity>
     </application>
 
 </manifest>
